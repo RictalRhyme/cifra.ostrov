@@ -1,0 +1,11 @@
+.CO-navbar-container:not(.uk-navbar-transparent) {
+    background: linear-gradient(rgb(49, 87, 211), #000);
+}
+
+.fa:hover {
+    text-decoration: none;
+}
+
+.fa {
+    color: #666666;
+}
