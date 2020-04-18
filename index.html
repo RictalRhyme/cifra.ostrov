@@ -11,53 +11,48 @@
 
 <body>
 
-    <header class="uk-grid uk-child-width-expand">
-        <div class="uk-width-1">
-            
-            <div class="uk-section-xsmall">
-                <div class="uk-container uk-container-large">
-                    <div class="uk-grid uk-child-width-expand@s">
-                        <div>
-                            г. Павловский Посад ул. Привокзальная д. 19А
-                        </div>
-                        <div class="uk-text-center">
+    <header>
 
-                        </div>
-                        <div class="uk-flex uk-flex-center@m uk-flex-right@l">
-                            <div class="uk-grid">
-                                <div class="">
-                                    <a class="" uk-search-icon href="#"></a>
-                                    <div class="uk-drop" uk-drop="mode: click; pos: left-center; offset: 0">
-                                        <form class="uk-search ">
-                                            <input class="uk-search-input" type="search" placeholder="Поиск..."
-                                                autofocus>
-                                        </form>
+        <div class="uk-position-relative">
+
+            <nav class="uk-navbar-container" uk-navbar="dropbar: true; mode: click;">
+
+                <div class="uk-navbar-left">
+                    <a class="uk-navbar-toggle uk-hidden@s" uk-toggle="target: #offcanvas-push" uk-navbar-toggle-icon
+                        href="#"></a>
+                    <a class="uk-navbar-item uk-logo" href="#">Цифровой Остров</a>
+                    <ul class="uk-navbar-nav uk-visible@m">
+                        <li>
+                            <a href="#">Каталог</a>
+                            <div class="uk-navbar-dropdown">
+                                <ul class="uk-nav uk-navbar-dropdown-nav">
+                                    <li class="uk-active"><a href="#">Active</a></li>
+                                    <li><a href="#">Item</a></li>
+                                    <li class="uk-nav-header">Header</li>
+                                    <li><a href="#">Item</a></li>
+                                    <li><a href="#">Item</a></li>
+                                    <li class="uk-nav-divider"></li>
+                                    <li><a href="#">Item</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li>
+                            <a href="#">Item</a>
+                            <div class="uk-navbar-dropdown uk-navbar-dropdown-width-2">
+                                <div class="uk-navbar-dropdown-grid uk-child-width-1-2" uk-grid>
+                                    <div>
+                                        <ul class="uk-nav uk-navbar-dropdown-nav">
+                                            <li class="uk-active"><a href="#">Active</a></li>
+                                            <li><a href="#">Item</a></li>
+                                            <li class="uk-nav-header">Header</li>
+                                            <li><a href="#">Item</a></li>
+                                            <li><a href="#">Item</a></li>
+                                            <li class="uk-nav-divider"></li>
+                                            <li><a href="#">Item</a></li>
+                                        </ul>
                                     </div>
-                                </div>
-                                <div class="">
-                                    <span style="font-size: 1.2em">
-                                        <a href="#" class="fab fa fa-vk"></a>
-                                      </span>
-                                </div>
-                                <div class="">
-                                    <span style="font-size: 1.2em">
-                                        <a href="#" class="fab fa fa-instagram"></a>
-                                      </span>
-                                </div>
-                                <div class="">
-                                      <div class="uk-inline">
-                                        <span style="font-size: 1.2em">
-                                            <a href="#" class="fab fa fa-phone-square"></a>
-                                          </span>
-                                        <div uk-drop>
-                                            <div class="uk-card uk-card-body uk-card-default uk-card-small">Наш номер: 79998887766</div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="">
-                                    <a href="" uk-icon="icon: cart"></a>
-                                    <div uk-dropdown="animation: uk-animation-slide-top-small; duration: 200; mode: click;">
-                                        <ul class="uk-nav uk-dropdown-nav">
+                                    <div>
+                                        <ul class="uk-nav uk-navbar-dropdown-nav">
                                             <li class="uk-active"><a href="#">Active</a></li>
                                             <li><a href="#">Item</a></li>
                                             <li class="uk-nav-header">Header</li>
@@ -69,75 +64,53 @@
                                     </div>
                                 </div>
                             </div>
-                        </div>
-                    </div>
+                        </li>
+                    </ul>
+
                 </div>
-            </div>
-            
-        </div>
+
+                <div class="uk-navbar-right">
+
+                    <ul class="uk-navbar-nav">
+                        <li>
+                            <a href="#">UserName</a>
+                            <div class="uk-navbar-dropdown">
+                                <ul class="uk-nav uk-navbar-dropdown-nav">
+                                    <li class="uk-active"><a href="#">Всего баллов: 357</a></li>
+                                    <li><a href="#">Мои залоги</a></li>
+                                    <li><a href="#">История покупок</a></li>
+                                    <li><a href="#">Настройки</a></li>
+                                    <li class="uk-nav-divider"></li>
+                                    <li><a href="#">Выход</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                    </ul>
+
+                </div>
+            </nav>
+
+            <div class="uk-navbar-dropbar"></div>
 
         </div>
-        <div class="uk-width-1">
-            <div class="uk-position-relative ">
-                <nav class="uk-navbar-container" uk-navbar="dropbar: true; mode: click;">
 
-                    <div class="uk-navbar-left">
-                        <a class="uk-navbar-item uk-logo" href="#">Цифровой Остров</a>
-                        <ul class="uk-navbar-nav">
-                            <li>
-                                <a href="#">Каталог</a>
-                                <div class="uk-navbar-dropdown uk-navbar-dropdown-width-2">
-                                    <div class="uk-navbar-dropdown-grid uk-child-width-1-2" uk-grid>
-                                        <div>
-                                            <ul class="uk-nav uk-navbar-dropdown-nav">
-                                                <li class="uk-active"><a href="#">Active</a></li>
-                                                <li><a href="#">Item</a></li>
-                                                <li class="uk-nav-header">Header</li>
-                                                <li><a href="#">Item</a></li>
-                                                <li><a href="#">Item</a></li>
-                                                <li class="uk-nav-divider"></li>
-                                                <li><a href="#">Item</a></li>
-                                            </ul>
-                                        </div>
-                                        <div>
-                                            <ul class="uk-nav uk-navbar-dropdown-nav">
-                                                <li class="uk-active"><a href="#">Active</a></li>
-                                                <li><a href="#">Item</a></li>
-                                                <li class="uk-nav-header">Header</li>
-                                                <li><a href="#">Item</a></li>
-                                                <li><a href="#">Item</a></li>
-                                                <li class="uk-nav-divider"></li>
-                                                <li><a href="#">Item</a></li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                </div>
-                            </li>
+        <div id="offcanvas-push" uk-offcanvas="mode: push; overlay: true">
+            <div class="uk-offcanvas-bar">
+                <ul class="uk-nav uk-nav-default">
+                    <li class="uk-active"><a href="#">Active</a></li>
+                    <li class="uk-parent">
+                        <a href="#">Parent</a>
+                        <ul class="uk-nav-sub">
+                            <li><a href="#">Sub item</a></li>
+                            <li><a href="#">Sub item</a></li>
                         </ul>
-
-                    </div>
-
-                    <div class="uk-navbar-right">
-
-                        <ul class="uk-navbar-nav">
-                            <li>
-                                <a href="#">UserName</a>
-                                <div class="uk-navbar-dropdown">
-                                    <ul class="uk-nav uk-navbar-dropdown-nav">
-                                        <li class="uk-active"><a href="#">Основное</a></li>
-                                        <li><a href="#">Учетная запись</a></li>
-                                        <li><a href="#">Настройки</a></li>
-                                        <li class="uk-nav-divider"></li>
-                                        <li><a href="#">Выйти</a></li>
-                                    </ul>
-                                </div>
-                            </li>
-                        </ul>
-
-                    </div>
-                </nav>
-
-                <div class="uk-navbar-dropbar"></div>
+                    </li>
+                    <li class="uk-nav-header">Header</li>
+                    <li><a href="#"><span class="uk-margin-small-right" uk-icon="icon: table"></span> Item</a></li>
+                    <li><a href="#"><span class="uk-margin-small-right" uk-icon="icon: thumbnails"></span> Item</a></li>
+                    <li class="uk-nav-divider"></li>
+                    <li><a href="#"><span class="uk-margin-small-right" uk-icon="icon: trash"></span> Item</a></li>
+                </ul>
 
             </div>
         </div>
@@ -158,8 +131,8 @@
                                 uk-cover>
                         </li>
                         <li>
-                            <img src="https://hocoshop.ru/upload/iblock/8bd/8bdf4ce63d7617698111f932e410da46.jpg"
-                                alt="" uk-cover>
+                            <img src="https://hocoshop.ru/upload/iblock/8bd/8bdf4ce63d7617698111f932e410da46.jpg" alt=""
+                                uk-cover>
                         </li>
                     </ul>
 
